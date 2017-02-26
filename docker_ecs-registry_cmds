@@ -1,0 +1,5 @@
+docker build -t ecs-outofmany .
+
+docker tag ecs-outofmany:latest 057371796903.dkr.ecr.us-east-1.amazonaws.com/ecs-outofmany:latest
+
+docker push 057371796903.dkr.ecr.us-east-1.amazonaws.com/ecs-outofmany:latest
